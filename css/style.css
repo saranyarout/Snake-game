@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap');
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+#startButton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+  .body{
+    background: url("../bg.jpg");
+    position: relative;
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #scoreBox{
+    position: absolute;
+    top: 15px;
+    right: 200px;
+    font-size: 70px;
+    font-weight: bold;
+    background-color: white;
+    font-family: 'Tulpen One', cursive;
+    padding: 10px;
+  }
+
+  #hiscoreBox{
+    position: absolute;
+    top: 120px;
+    right: 180px;
+    font-size: 70px;
+    font-weight: bold;
+    background-color: white;
+    font-family: 'Tulpen One', cursive;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+
+  #dashboard{
+    background: url("../bg_snake.png");
+    background-repeat: no-repeat;
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+    /* backdrop-filter: blur(100px);  */
+    /* -webkit-backdrop-filter: blur(100px); 
+    -moz-backdrop-filter: blur(100px); 
+    -o-backdrop-filter: blur(100px);  */
+  
+  }
+
+  .head{
+    background-color: rgb(187, 242, 9);
+    border: 2px solid black;
+    transform: scale(1.02);
+    border-radius: 5px;
+  }
+  .snake{
+    background-color: rgb(93, 3, 78);
+    border: .25vmin solid black;
+    border-radius: 14px;
+  }
+  .food{
+    background-color: rgb(254, 6, 6);
+    border: .25vmin solid black;
+    border-radius: 10px;
+  }
