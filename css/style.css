@@ -67,13 +67,13 @@
   }
 
   .head{
-    background-color: rgb(187, 242, 9);
+    background-color: greenyellow;
     border: 2px solid black;
     transform: scale(1.02);
     border-radius: 5px;
   }
   .snake{
-    background-color: rgb(93, 3, 78);
+    background-color: skyblue;
     border: .25vmin solid black;
     border-radius: 14px;
   }
