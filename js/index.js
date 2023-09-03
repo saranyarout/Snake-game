@@ -1,6 +1,6 @@
 // Game Constants & Variables
 let snakeDir = {x: 0, y: 0};
-let speed=2;
+let speed=5;
 let lastPaintTime=0;
 let score= 0;
 let snakeArr=[
