@@ -1,13 +1,13 @@
-🐍 Snake Game
+## 🐍 Snake Game
 
 A simple and classic Snake game built using HTML, CSS, and JavaScript.
 
-🎮 Overview
+## 🎮 Overview
 
 This project is a browser-based Snake game where the player controls a snake to eat food and grow in length. The game ends when the snake hits the wall or collides with itself.
 It is built using vanilla JavaScript, making it simple and easy to understand for beginners.
 
-✨ Features
+## ✨ Features
 
 Smooth snake movement
 
@@ -21,7 +21,7 @@ Game over condition
 
 Easy keyboard controls
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 HTML5
 
@@ -29,7 +29,7 @@ CSS3
 
 JavaScript (ES6)
 
-🚀 How to Run the Game
+## 🚀 How to Run the Game
 
 Download or clone the repository:
 
@@ -42,13 +42,13 @@ Run the game by opening the index.html file in your browser.
 
 Use the Arrow Keys to move the snake and enjoy playing!
 
-🧩 Project Structure
+## 🧩 Project Structure
 Snake-game/
 │── index.html       # Main UI
 │── snake.css        # Game styling
 └── snake.js         # Game logic (movement, collision, food)
 
-🎯 Future Improvements
+## 🎯 Future Improvements
 
 Add sound effects
 
